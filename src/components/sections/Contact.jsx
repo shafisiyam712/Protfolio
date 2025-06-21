@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
-
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 export const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -33,10 +35,49 @@ export const Contact = () => {
     >
       <RevealOnScroll>
         <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          {/* <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
-            Get In Touch
+            Get In Touch 
           </h2>
+
+           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+            {" "}
+            Or Send Message 
+          </h2> */}
+          <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+  Get In Touch
+</h2>
+
+{/* Social Icons Row */}
+<div className="flex justify-center items-center gap-6 text-3xl text-gray-300 mb-8">
+  <a
+    href="https://www.linkedin.com/in/shafiuddin-seyam-87930b254/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-blue-500 transition duration-300"
+  >
+    <FaLinkedin />
+  </a>
+  <a
+    href="https://github.com/shafisiyam712"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-green-500 transition duration-300"
+  >
+    <FaGithub />
+  </a>
+  <a
+    href="mailto:shafisiyam674@gmail.com"
+    className="hover:text-red-500 transition duration-300"
+  >
+    <SiGmail />
+  </a>
+</div>
+
+<h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+  Or Send Message
+</h2>
+
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div className="relative">
               <input
