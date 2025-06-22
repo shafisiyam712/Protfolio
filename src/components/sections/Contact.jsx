@@ -35,15 +35,7 @@ export const Contact = () => {
     >
       <RevealOnScroll>
         <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
-          {/* <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            {" "}
-            Get In Touch 
-          </h2>
-
-           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            {" "}
-            Or Send Message 
-          </h2> */}
+         
           <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
   Get In Touch
 </h2>
@@ -132,6 +124,9 @@ export const Contact = () => {
             </button>
           </form>
         </div>
+           <hr />
+      <h3 className="text-white text-lg text-center">© 2025 Shafi Seyam. All rights reserved.
+</h3>
       </RevealOnScroll>
     </section>
   );
