@@ -1,7 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 // import { Orb } from "react-bits";
-
-
 import pic from "../../assets/photo_2025-04-29_00-47-04 (3).jpg"
 export const Home = () => {
   return (
@@ -43,14 +41,20 @@ export const Home = () => {
           </div>
 
           {/* Image Section */}
-          <div>
+          {/* <div>
             <img
               src={pic}
               alt="Shafi Seyam"
               className="w-80 h-80 object-cover rounded-full border-4 border-blue-500 shadow-lg"
             />
-          </div>
-      
+          </div> */}
+      <div className="w-80 h-80 rounded-full p-2 bg-gradient-to-r from-blue-500 to-cyan-400 shadow-lg">
+  <img
+    src={pic}
+    alt="Shafi Seyam"
+    className="w-full h-full object-cover rounded-full"
+  />
+</div>
 
         
         </div>

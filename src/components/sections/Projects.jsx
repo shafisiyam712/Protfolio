@@ -1,4 +1,9 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import movie from "../../assets/Screenshot 2025-06-22 163137.png"
+import food from "../../assets/Screenshot 2025-06-22 163306.png"
+import gadget from "../../assets/Screenshot 2025-06-22 163450.png"
+import cricket from '../../assets/Screenshot 2025-06-22 163604.png'
+import chess from "../../assets/Screenshot 2025-06-22 163704.png"
 
 export const Projects = () => {
   return (
@@ -14,6 +19,11 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+             <img
+    src={movie}
+    alt="Movie Project Screenshot"
+    className="w-full h-48 object-cover rounded-lg mb-4 shadow-lg hover:scale-105 transition-transform duration-300"
+  />
               <h3 className="text-xl font-bold mb-2">Movie Portal Website</h3>
               <p className="text-gray-400 mb-4">
                 It is a responsive single-page application designed for movie lovers to explore, contribute to, and organize their favorite films. The platform supports Google authentication and delivers a seamless user experience across all devices. Users can browse community-recommended movies, add their own, and curate a personal favorites list.
@@ -48,6 +58,11 @@ export const Projects = () => {
               transition-all
             "
             >
+               <img
+    src={food}
+    alt="Movie Project Screenshot"
+    className="w-full h-48 object-cover rounded-lg mb-4 shadow-lg hover:scale-105 transition-transform duration-300"
+  />
               <h3 className="text-xl font-bold mb-2">Food Sharing Website</h3>
               <p className="text-gray-400 mb-4">
                Food Feasta enables users to donate and receive food in times of need through a seamless, secure, and user-friendly platform. The application supports Google authentication and provides a fully responsive experience across all devices, making food sharing efficient, accessible, and impactful.
@@ -86,6 +101,11 @@ export const Projects = () => {
               transition-all
             "
             >
+               <img
+    src={gadget}
+    alt="Movie Project Screenshot"
+    className="w-full h-48 object-cover rounded-lg mb-4 shadow-lg hover:scale-105 transition-transform duration-300"
+  />
               <h3 className="text-xl font-bold mb-2">Gadget Heaven</h3>
               <p className="text-gray-400 mb-4">
                 Gadget Heaven is a Frontend based website where you can find your needed tec product. We have different categories of product with a beautiful user interface.
@@ -126,6 +146,11 @@ export const Projects = () => {
               transition-all
             "
             >
+               <img
+    src={cricket}
+    alt="Movie Project Screenshot"
+    className="w-full h-48 object-cover rounded-lg mb-4 shadow-lg hover:scale-105 transition-transform duration-300"
+  />
               <h3 className="text-xl font-bold mb-2">Dream-11 Cricket</h3>
               <p className="text-gray-400 mb-4">
                This is a simple react web based project(Frontend).Its platform where you can build your team. Players all over the world are here with their stat you just have to chose them using your cricket sense and build your team.For the transaction we give you coin so that you can bye players.I am very excited to launch this project!!
@@ -163,6 +188,11 @@ export const Projects = () => {
               transition-all
             "
             >
+               <img
+    src={chess}
+    alt="Movie Project Screenshot"
+    className="w-full h-48 object-cover rounded-lg mb-4 shadow-lg hover:scale-105 transition-transform duration-300"
+  />
               <h3 className="text-xl font-bold mb-2">Simple Chess Game</h3>
               <p className="text-gray-400 mb-4">
                 This is something I wanted to try.Build a simple chess game using the html css and js.Here I polish my js knowledge more for the game logic.
